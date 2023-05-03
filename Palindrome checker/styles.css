@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 1.25rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    font-size: 1rem;
+    padding: 0.625rem;
+    margin: 0.3125rem;
+}
+
+#result {
+    margin-top: 1.25rem;
+    font-size: 1.2rem;
+}
+#result.hidden {
+    display: none;
+}
