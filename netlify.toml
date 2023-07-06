@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build" # Replace with appropriate build command, if necessary
+  publish = "public" # Set the publish directory to 'public' if that's where your static files are built
+
+[dev]
+  command = "node server.js"
